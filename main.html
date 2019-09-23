@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- elm make src/Main.elm --output=elm-main.js -->
+        <script src="elm-main.js"></script>
+    </head>
+    <body>
+        <div id="elm-node"></div>
+        <script type="text/javascript">
+            Elm.Main.init({node: document.getElementById("elm-node")});
+        </script>
+    </body>
+</html>
